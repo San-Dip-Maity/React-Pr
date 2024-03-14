@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+button{
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 15px;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(255, 255, 0);
+  color: black;
+}
